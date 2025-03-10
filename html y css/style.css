@@ -1,0 +1,28 @@
+/*hoja de estilos css*/
+
+/*tres sectores*/
+
+/*selector de etiquetas */
+p{
+    color: brown;
+}
+
+.contenedor{
+    color: blueviolet; /* modifica el color de las letras*/
+    background-color: aqua;/*color de fondo */
+    font-size: 20px;/*tamaño de la letra */
+    /*se suele usar rem o reem medida pero vamos a utilizar px*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid aquamarine;/*ancho tipo color*/
+    padding: 5px; /*espacio del elemento hacia los bordes*/
+    margin: 4px;/* espacio del elemeno dentro de los bordes*/
+    border-radius: 6px;
+    width: 200px;/*ancho*/
+    height: 300px;/*alto*/
+    
+}
+
+.contenedor-bordes{
+
+}
