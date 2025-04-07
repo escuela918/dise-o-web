@@ -1,0 +1,25 @@
+.contenedor2 {
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  display: inline;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  padding: px;
+}
+.borde {
+  border: 2px solid rgb(0, 0, 0);
+  width: 350px;
+  background-color: aquamarine;
+}
+
+.cuadros {
+  width: 250px;
+  height: 37px;
+}
+
+body {
+  background-color: brown;
+}
