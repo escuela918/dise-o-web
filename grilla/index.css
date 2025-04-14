@@ -1,0 +1,45 @@
+body{
+    background-image: url(//external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F008%2F195%2F226%2Foriginal%2Fabstract-elegant-white-and-gray-background-abstract-white-pattern-squares-texture-vector.jpg&f=1&nofb=1&ipt=27729b211fef4e6089a927cf87304a0072a64f5afb519cb3643ad9b224fe213b);
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid{
+    display: grid;
+    /*grid-template-columns: 300px 300px 300px;*/
+    grid-template-columns: repeat(3, 1fr);
+    /*establece cantidad de columnas*/
+    grid-auto-rows: auto;
+    /*establece el tamaño de las filas automaticamente */
+    gap: 10px;
+}
+.card{
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: auto;
+    cursor: pointer;/*cambia el cursor por una mano */
+}
+
+.jaja{
+    background-color: aquamarine;
+}
+.jeje{
+    background-color: blueviolet;
+}
+.jiji{
+    background-color: brown;
+}
+/*cuando se supera la medida lo va a cambiar y lo va a poner solo en una columna(modifica las clases de acuerdo a la medida) */
+@media(max-width:768px){
+    .grid {
+        grid-template-columns: 1fr;
+        
+    }
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+
