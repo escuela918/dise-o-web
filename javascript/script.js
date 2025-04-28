@@ -41,3 +41,9 @@ const objeto = {
 
 //los objetos estan compuestos por la clave valor 
 console.log(objeto.clave)
+
+// bucle for
+const arrayNumeros= [1,2,3]
+for(let i = 0; i<arrayNumeros.length; i++){
+    console.log(arrayNumeros[i])
+}
